@@ -17,4 +17,10 @@ The input is via a string, separated by a comma, and the desired output is the c
 ## Tech
 
 The application is built in Ruby, using Test-Driven Development. 
+
+## How to run 
+
+- Fork and clone this repo to your chosen folder
+- Terminal: Run ```irb -r './lib/grade_report.rb'```
+- Run Unit Tests, Terminal: Run ```rspec```
  
