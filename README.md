@@ -6,13 +6,13 @@ My client represents a school report company. I have been approached to build an
 
 The input is via a string, separated by a comma, and the desired output is the color of grade and total count.
 
-Input                             | Output 
-
-Green                             | Green: 1
-Red                               | Red: 1
-Amber                             | Amber: 1
-Green, Green, Green               | Green: 3
-Green, Green, Green, Amber, Red   | Green: 3\nAmber: 1\nRed: 1
+| Input   | Output |
+|---        |---         |
+|Green |Green: 1 |
+| Red|Red: 1 |
+| Amber| Amber: 1|
+| Green, Green, Green |Green: 3 |
+|Green, Green, Green, Amber, Red | Green: 3\nAmber: 1\nRed: 1|
 
 ## Tech
 
