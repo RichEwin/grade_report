@@ -1,9 +1,11 @@
 def grade_report(grade)
-    if grade === 'Green'
-        'Green: 1'
-    elsif grade === 'Red'
-        'Red: 1'
-    else
-        'Amber: 1'
+    grades = grade.split(', ')
+    if grades.include?('Green')
+        "Green: #{grades.count('Green')}"
+    elsif grades.include?('Amber') 
+        "Amber: #{grades.count('Amber')}"
+    else 
+        grades.include?('Red')
+        "Red: #{grades.count('Red')}"
     end
-end  
+end    
