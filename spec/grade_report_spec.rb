@@ -16,4 +16,8 @@ describe '#grade_report' do
     it "returns 'Green: 3', when passed 'Green, Green, Green'" do 
         expect(grade_report('Green, Green, Green')).to eq('Green: 3')
     end 
+
+    it "returns 'Green: 1\nAmber: 1', when passed 'Green, Amber'" do 
+        expect(grade_report('Green, Amber')).to eq('Green: 1\nAmber: 1')
+    end 
 end 
