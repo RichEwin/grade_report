@@ -22,6 +22,7 @@ The input is via a string, separated by a comma, and the desired output is the c
 ## How to run 
 
 - Fork and clone this repo to your chosen folder
+- Terminal: Run ```bundle install``` to install dependencies
+- Terminal: Run ```rspec``` to run unit tests
 - Terminal: Run ```irb -r './lib/grade_report.rb'```
-- Run Unit Tests, Terminal: Run ```rspec```
  
