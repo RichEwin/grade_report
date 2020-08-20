@@ -1,3 +1,7 @@
 def grade_report(grade)
-    'Green: 1'
-end 
+    if grade === 'Green'
+        return 'Green: 1'
+    else 
+        return 'Red: 1'
+    end
+end  
