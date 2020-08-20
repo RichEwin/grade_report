@@ -8,4 +8,8 @@ describe '#grade_report' do
     it "returns 'Red: 1', when passed 'Red'" do 
         expect(grade_report('Red')).to eq('Red: 1') 
     end 
+
+    it "returns 'Amber: 1', when passed 'Amber'" do 
+        expect(grade_report('Amber')).to eq('Amber: 1')
+    end     
 end 
