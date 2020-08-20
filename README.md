@@ -1,6 +1,6 @@
-# Grade Report (Makers Academy Review)
+# Grade Report - TDD
 
-## Approach
+## Specification
 
 My client represents a school report company. I have been approached to build an app that outputs a grading system aligned with a traffic light system: Green, Red, Amber.
 
@@ -14,9 +14,10 @@ The input is via a string, separated by a comma, and the desired output is the c
 | Green, Green, Green |Green: 3 |
 |Green, Green, Green, Amber, Red | Green: 3\nAmber: 1\nRed: 1|
 
-## Tech
+## Technologies
 
-The application is built in Ruby, using Test-Driven Development. 
+- Programming Language: Ruby
+- Testing Framework: Rspec
 
 ## How to run 
 
